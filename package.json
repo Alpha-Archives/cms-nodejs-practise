@@ -1,5 +1,5 @@
 {
-  "name": "cms",
+  "name": "cms-nodejs",
   "version": "1.0.0",
   "description": "cms",
   "main": "src/index.js",
@@ -64,5 +64,17 @@
     "nodemon": "^2.0.0",
     "prettier": "^1.18.2",
     "supertest": "^4.0.2"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alphaolomi/cms-nodejs.git"
+  },
+  "author": "Alpha Olomi <alphaolomi@gmail.com> (http://alphaolomi.me)",
+  "bugs": {
+    "url": "https://github.com/alphaolomi/cms-nodejs/issues"
+  },
+  "homepage": "https://github.com/alphaolomi/cms-nodejs#readme"
 }
