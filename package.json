@@ -7,7 +7,7 @@
   "scripts": {
     "start": "pm2 start ecosystem.config.json --no-daemon",
     "dev": "cross-env NODE_ENV=development nodemon src/index.js",
-    "test": "jest -i",
+    "test": "jest",
     "test:watch": "jest -i --watchAll",
     "make-docs":"apidoc -i src/routes/ -o docs/",
     "coverage": "jest -i --coverage",
