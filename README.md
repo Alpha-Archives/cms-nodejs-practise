@@ -1,4 +1,4 @@
-<h1 align="center">cms-nodejs 👋</h1>
+<h1 align="center">Cool Nodejs App</h1>
 <p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/alphaolomi/cms-nodejs#readme" target="_blank">
@@ -12,7 +12,7 @@
   </a>
 </p>
 
-> cms
+<!-- > cms -->
 
 ### 🏠 [Homepage](https://github.com/alphaolomi/cms-nodejs#readme)
 
@@ -37,28 +37,28 @@ Built-in features, such as authentication using JWT, request validation, unit an
 - **CORS**: Cross-Origin Resource-Sharing enabled using [cors](https://github.com/expressjs/cors)
 - **Compression**: gzip compression with [compression](https://github.com/expressjs/compression)
 - **CI**: continuous integration with [Travis CI](https://travis-ci.org)
-- ** support**
 - **Linting**: with [ESLint](https://eslint.org) and [Prettier](https://prettier.io)
 - **Editor config**: consistent editor configuration using [EditorConfig](https://editorconfig.org)
 
-## Getting Started
+## Development
 
 ### Installation
 
 Clone the repo:
 
 Install dependencies:
-```
+
+```sh
 cd cms
 ```
 
-```
+```sh
 yarn install
 ```
 
 Environment variables:
 
-```
+```sh
 using .env.example
 
 update environment variables
@@ -68,19 +68,19 @@ update environment variables
 
 Running locally:
 
-```
+```sh
 yarn dev
 ```
 
 Running in production:
 
-```
+```sh
 yarn start
 ```
 
 Testing:
 
-```bash
+```sh
 # run all tests
 yarn test
 
@@ -93,7 +93,7 @@ yarn coverage
 
 Docker:
 
-```bash
+```sh
 # run docker container in development mode
 yarn docker:dev
 
@@ -106,7 +106,7 @@ yarn docker:test
 
 Linting:
 
-```bash
+```sh
 # run ESLint
 yarn lint
 
@@ -124,7 +124,6 @@ yarn prettier:fix
 
 👤 **Alpha Olomi <alphaolomi@gmail.com> (http://alphaolomi.me)**
 
-
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/alphaolomi/cms-nodejs/issues). You can also take a look at the [contributing guide](https://github.com/alphaolomi/cms-nodejs/blob/master/CONTRIBUTING.md).
@@ -133,7 +132,6 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 
 Give a ⭐️ if this project helped you!
 
-
 ## 📝 License
 
 Copyright © 2020 [Alpha Olomi <alphaolomi@gmail.com> (http://alphaolomi.me)](https://github.com/alphaolomi).<br />
@@ -141,4 +139,4 @@ This project is [MIT](https://github.com/alphaolomi/cms-nodejs/blob/master/LICEN
 
 ---
 
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+<!-- _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_ -->
